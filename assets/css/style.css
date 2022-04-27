@@ -1,9 +1,45 @@
 @font-face {
   font-family: "Material Icons";
-  src: url(../fonts/MaterialIcons-Regular.ttf),
-    url(../fonts/MaterialIconsOutlined-Regular.otf);
+  src: url(../fonts/MaterialIcons-Regular.ttf) format("ttf"),
+    url(../fonts/MaterialIconsOutlined-Regular.otf) format("otf");
 }
 
 body {
   font-family: "Poppins", "Material Icons", sans-serif;
+  overflow-x: hidden;
+  position: fixed;
+}
+
+/* HEADER */
+
+.content__header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+}
+
+.header__title {
+  color: #333333;
+  font-family: "Heebo";
+  font-size: 1.5em;
+  line-height: 2em;
+}
+
+.header__button {
+  background-color: #fff;
+  background-image: url(../img/svg/menu.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 24px;
+  border: none;
+  height: 19px;
+  padding: 12px;
+  width: 20px;
+}
+
+.header__menu {
+  z-index: 1;
+  background-color: red;
+  transform: translate(100%);
 }
