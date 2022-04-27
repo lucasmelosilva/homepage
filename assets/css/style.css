@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "Material Icons";
+  src: url(../fonts/MaterialIcons-Regular.ttf),
+    url(../fonts/MaterialIconsOutlined-Regular.otf);
+}
+
+body {
+  font-family: "Poppins", "Material Icons", sans-serif;
+}
