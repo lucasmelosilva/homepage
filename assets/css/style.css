@@ -105,3 +105,83 @@ body {
     font-size: 1.5em;
   }
 }
+
+/* MAIN */
+
+main {
+  margin-top: 2em;
+}
+
+/* SECTIONS */
+
+.content__section {
+  margin: 1.8em;
+}
+
+.content__section--text {
+  color: #2d9cdb;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  margin-bottom: 0.3em;
+}
+
+.content__section--title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  margin-bottom: 1em;
+}
+
+.content__section--wrapper {
+  background-image: url(../img/jpg/heroImage.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 18px;
+  width: 100%;
+  height: 7em;
+}
+
+.content__section--text-alternative {
+  color: #4f4f4f;
+  margin: 1.7em 0;
+}
+
+.content__input {
+  width: auto;
+  position: relative;
+}
+
+.content__input label {
+  color: #828282;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 15px;
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+.content__input input {
+  border: none;
+  width: 80%;
+  background: #f2f2f2;
+  border-radius: 12px;
+  padding: 1em 0.5em;
+}
+
+.content__input button {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+
+  color: #f2f2f2;
+  background: #2d9cdb;
+  border-radius: 12px;
+  border: none;
+  padding: 0.5em;
+  width: 4.5em;
+  position: absolute;
+  right: 17%;
+  bottom: 6%;
+}
