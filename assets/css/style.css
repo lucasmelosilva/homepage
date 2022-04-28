@@ -1,13 +1,6 @@
-@font-face {
-  font-family: "Material Icons";
-  src: url(../fonts/MaterialIcons-Regular.ttf) format("ttf"),
-    url(../fonts/MaterialIconsOutlined-Regular.otf) format("otf");
-}
-
 body {
   font-family: "Poppins", "Material Icons", sans-serif;
   overflow-x: hidden;
-  position: fixed;
 }
 
 /* HEADER */
@@ -27,7 +20,7 @@ body {
 }
 
 .header__button {
-  background-color: #fff;
+  background-color: transparent;
   background-image: url(../img/svg/menu.svg);
   background-repeat: no-repeat;
   background-position: center;
@@ -36,10 +29,41 @@ body {
   height: 19px;
   padding: 12px;
   width: 20px;
+  z-index: 2;
 }
 
 .header__menu {
+  align-items: center;
+  background-color: #ffffff;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  width: 100vw;
   z-index: 1;
-  background-color: red;
-  transform: translate(100%);
+
+  /* ANIMATION */
+  transition: all 1s ease-in-out;
+  transform: translateX(100%);
+}
+
+.header__menu--open {
+  transform: translateX(0);
+}
+
+.header__menu--item {
+  margin-bottom: 1em;
+}
+
+.header__menu--item a {
+  color: #333333;
+  font-size: 1.2em;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 1s ease-in-out;
+}
+
+.header__menu--item a:hover {
+  font-weight: 700;
 }
