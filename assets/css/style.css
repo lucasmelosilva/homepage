@@ -18,6 +18,7 @@ body {
   font-family: "Heebo";
   font-size: 1.5em;
   line-height: 2em;
+  text-decoration: none;
 }
 
 .header__button {
@@ -67,4 +68,40 @@ body {
 
 .header__menu--item a:hover {
   font-weight: 700;
+}
+
+@media screen and (min-width: 1020px) {
+  body {
+    padding: 0.5em 2.2em;
+  }
+
+  .header__title {
+    font-size: 2em;
+    line-height: 3em;
+  }
+
+  .header__button {
+    display: none;
+  }
+
+  .header__menu {
+    position: static;
+    transform: translateX(0);
+    width: 50%;
+    height: auto;
+  }
+
+  .header__menu--list {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .header__menu--item {
+    margin-bottom: 0;
+  }
+
+  .header__menu--item a {
+    font-size: 1.5em;
+  }
 }
