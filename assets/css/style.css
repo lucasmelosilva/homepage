@@ -226,6 +226,7 @@ main {
 
 .section__second {
   margin-top: 100px;
+  padding: 0 6em;
 }
 
 .section__second--title {
