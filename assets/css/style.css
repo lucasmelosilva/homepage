@@ -126,11 +126,16 @@ main {
   margin-bottom: 0.3em;
 }
 
+.content__section > .section__title {
+  margin-left: 0;
+}
+
 .section__title {
   font-weight: 500;
   font-size: 24px;
   line-height: 36px;
   margin-bottom: 1em;
+  margin-left: 28px;
 }
 
 .content__section--wrapper {
@@ -226,11 +231,6 @@ main {
 
 .section__second {
   margin-top: 100px;
-  padding: 0 6em;
-}
-
-.section__second--title {
-  margin-left: 28px;
 }
 
 .card {
@@ -242,8 +242,8 @@ main {
   justify-content: space-between;
   padding: 49px 34px 43px;
   margin-bottom: 10px;
-  width: 100%;
   max-width: 400px;
+  width: 100%;
 }
 
 .card__wrapper {
@@ -279,15 +279,15 @@ main {
 
 .card__text {
   font-size: 16px;
-  line-height: 24px;
   font-weight: 400;
+  line-height: 24px;
 }
 
 .card__button {
-  border: none;
-  border-radius: 12px;
   color: #828282;
   cursor: pointer;
+  border: none;
+  border-radius: 12px;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
@@ -301,8 +301,8 @@ main {
 }
 
 .card__button--horver {
-  background: #2d9cdb;
   color: #fff;
+  background: #2d9cdb;
 }
 
 @media screen and (min-width: 1020px) {
@@ -311,9 +311,60 @@ main {
     grid-template-columns: repeat(3, auto);
     margin: auto;
     margin-top: 200px;
+    padding: 0 6em;
   }
 
   .section__second .section__second--title {
     grid-column: span 3;
   }
+}
+
+.section__third {
+  margin-top: 100px;
+  width: 100%;
+}
+
+.section__third > .section__title {
+  margin-bottom: 2em;
+}
+
+.card__alternative {
+  margin-top: 2.5em;
+  width: 100%;
+}
+
+.card__alternative--image {
+  border-radius: 16px;
+  width: 100%;
+}
+
+.card__alternative--span {
+  color: #828282;
+  display: block;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 18px;
+  margin: 12px 0 6px;
+}
+
+.card__alternative--title {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+}
+
+.button__see--more {
+  align-items: center;
+  color: #2d9cdb;
+  display: flex;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  margin-top: 2em;
+  text-decoration: none;
+  width: auto;
+}
+
+.button__see--more > img {
+  margin-left: 10px;
 }
