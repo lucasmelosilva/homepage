@@ -506,3 +506,57 @@ main {
     width: 290px;
   }
 }
+
+.testimonial {
+  margin-top: 100px;
+}
+
+.testimonial__text {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+}
+
+.testimonial__user {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  width: 80%;
+}
+
+.testimonial__user--image {
+  width: 82px;
+  border-radius: 12px;
+}
+
+.testimonial__user--info p {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+}
+
+.testimonial__user span {
+  color: #828282;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+}
+
+@media screen and (min-width: 1020px) {
+  .testimonial {
+    margin-top: 200px;
+    padding-left: 6em;
+  }
+
+  .testimonial__text {
+    font-size: 36px;
+    line-height: 54px;
+    width: 900px;
+  }
+
+  .testimonial__user {
+    margin-top: 50px;
+    width: 300px;
+  }
+}
