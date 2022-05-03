@@ -229,7 +229,9 @@ main {
   }
 }
 
-.section__second {
+.section__second,
+.section__third,
+.section__fourth {
   margin-top: 100px;
 }
 
@@ -320,7 +322,6 @@ main {
 }
 
 .section__third {
-  margin-top: 100px;
   width: 100%;
 }
 
@@ -426,4 +427,58 @@ main {
     font-size: 24px;
     line-height: 36px;
   }
+}
+
+.section__header > .section__title {
+  margin: 0;
+}
+
+.section__header > .section__subtitle,
+.section__header > .section__description {
+  box-sizing: border-box;
+  display: block;
+  line-height: 24px;
+}
+
+.section__header > .section__subtitle {
+  color: #eb5757;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.section__description {
+  color: #4f4f4f;
+  font-size: 16px;
+  margin-top: 10px;
+  width: 250px;
+}
+
+.photo__member--image {
+  border-radius: 24px;
+}
+
+.grid__photos--member {
+  margin-top: 36px;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: repeat(4, 80px);
+  grid-template-areas:
+    ". member-2"
+    "member-1 member-2"
+    "member-1 member-3"
+    ". member-3";
+}
+
+.grid__member-1 {
+  grid-area: member-1;
+  width: 170px;
+}
+.grid__member-2 {
+  grid-area: member-2;
+  width: 150px;
+}
+.grid__member-3 {
+  grid-area: member-3;
+  width: 160px;
 }
