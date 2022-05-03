@@ -482,3 +482,27 @@ main {
   grid-area: member-3;
   width: 160px;
 }
+
+@media screen and (min-width: 1020px) {
+  .section__fourth {
+    padding: 0 6em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .grid__photos--member {
+    grid-template-rows: repeat(4, 140px);
+    column-gap: 20px;
+  }
+
+  .grid__member-1 {
+    width: 320px;
+  }
+  .grid__member-2 {
+    width: 260px;
+  }
+  .grid__member-3 {
+    width: 290px;
+  }
+}
