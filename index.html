@@ -21,157 +21,198 @@
 </head>
 
 <body>
-  <header class="content__header">
-    <a href="#" class="header__title">Edie</a>
+  <div class="container">
+    <header class="content__header">
+      <a href="#" class="header__title">Edie</a>
 
-    <button class="header__button"><i></i></button>
+      <button class="header__button"><i></i></button>
 
-    <nav class="header__menu">
-      <ul class="header__menu--list">
-        <li class="header__menu--item">
+      <nav class="header__menu">
+        <ul class="header__menu--list">
+          <li class="header__menu--item">
+            <a href="#">Home</a>
+          </li>
+          <li class="header__menu--item">
+            <a href="#">Services</a>
+          </li>
+          <li class="header__menu--item">
+            <a href="#">Our Work</a>
+          </li>
+          <li class="header__menu--item">
+            <a href="#">Clients</a>
+          </li>
+          <li class="header__menu--item">
+            <a href="#">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section__first">
+        <div class="content__section">
+          <p class="content__section--text">Unhappy with your website?</p>
+          <h2 class="section__title">We create beautiful <br>
+            and fast web services</h2>
+        </div>
+
+        <div class="content__section--wrapper">
+        </div>
+
+        <div class="content__section">
+          <h2 class="section__title">Story, emotion <br>
+            and purpose</h2>
+          <p class="content__section--text content__section--text-alternative">We help transform your ideas into real
+            world applications that will outperform your toughest competition and
+            help you achieve your strategic goals in short period of time.</p>
+
+          <div class="content__input">
+            <label for="email">Want us to contact you?</label>
+            <input type="email" name="email" placeholder="Email">
+            <button>Join</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="section__second">
+        <h2 class="section__title section__second--title">We offer high <br> demand services</h2>
+
+        <article class="card">
+          <div class="card__wrapper card__wrapper--pencil">
+            <img src="./assets/img/svg/pencil.svg" class="card__image">
+          </div>
+
+          <h3 class="card__title">UI/UX Design</h3>
+
+          <p class="card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat
+            aliquet id quis turpis.</p>
+          <button class="card__button">Get started</button>
+        </article>
+
+        <article class="card">
+          <div class="card__wrapper card__wrapper--code">
+            <img src="./assets/img/svg/code.svg" class="card__image">
+          </div>
+
+          <h3 class="card__title">Front End</h3>
+
+          <p class="card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat
+            aliquet id quis turpis.</p>
+          <button class="card__button">Get started</button>
+        </article>
+
+        <article class="card">
+          <div class="card__wrapper card__wrapper--storage">
+            <img src="./assets/img/svg/storage.svg" class="card__image">
+          </div>
+
+          <h3 class="card__title">Back End</h3>
+
+          <p class="card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat
+            aliquet id quis turpis.</p>
+          <button class="card__button">Get started</button>
+        </article>
+      </section>
+
+      <section class="section__third">
+        <h2 class="section__title content__grid--title">Good design means <br> good business</h2>
+
+        <article class="card__alternative content__grid--full-stack">
+          <img src="./assets/img/jpg/smarthome.jpg" class="card__alternative--image">
+          <span class="card__alternative--span">Full stack application</span>
+          <h3 class="card__altenative__title">Smart home dashboard</h3>
+        </article>
+
+        <article class="card__alternative content__grid--onboard-application">
+          <img src="./assets/img/png/onboard.png" class="card__alternative--image">
+          <span class="card__alternative--span">UX|UI design</span>
+          <h3 class="card__altenative__title">Onboard application</h3>
+        </article>
+
+        <article class="card__alternative content__grid--homepage">
+          <img src="./assets/img/png/juice-product.png" class="card__alternative--image">
+          <span class="card__alternative--span">Front End applicati on</span>
+          <h3 class="card__altenative__title">Juice product homepage</h3>
+        </article>
+
+        <article class="card__alternative content__grid--system">
+          <img src="./assets/img/png/booking.png" class="card__alternative--image">
+          <span class="card__alternative--span">Mobile application</span>
+          <h3 class="card__altenative__title">Booking system</h3>
+        </article>
+
+        <a href="#" class="button__see--more content__grid--button">see more<img src="./assets/img/svg/arrow.svg"></a>
+      </section>
+
+      <section class="section__fourth">
+
+        <div class="section__header">
+          <span class="section__subtitle">Meet the team</span>
+          <h2 class="section__title">We are chilled <br>and a laidback <br> team</h2>
+          <span class="section__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+        </div>
+
+        <div class="grid__photos--member">
+          <img src="./assets/img/png/person3.png" class="photo__member--image grid__member-1">
+          <img src="./assets/img/png/person1.png" class="photo__member--image grid__member-2">
+          <img src="./assets/img/png/person2.png" class="photo__member--image grid__member-3">
+        </div>
+      </section>
+
+      <article class="testimonial">
+        <p class="testimonial__text">“Fast and outstanding resutls. Edie understands their customer’s needs. They have a
+          young and talented team.” </p>
+
+        <div class="testimonial__user">
+          <img src="./assets/img/png/person4.png" class="testimonial__user--image">
+          <div class="testimonial__user--info">
+            <p>Carlos Tran</p>
+            <span>The Decorate Gatsby</span>
+          </div>
+        </div>
+      </article>
+    </main>
+
+  </div>
+
+  <footer>
+    <div class="footer__content">
+      <ul class="footer__menu">
+        <li class="footer__menu--item">
           <a href="#">Home</a>
         </li>
-        <li class="header__menu--item">
+        <li class="footer__menu--item">
           <a href="#">Services</a>
         </li>
-        <li class="header__menu--item">
+        <li class="footer__menu--item">
           <a href="#">Our Work</a>
         </li>
-        <li class="header__menu--item">
+        <li class="footer__menu--item">
           <a href="#">Clients</a>
         </li>
-        <li class="header__menu--item">
+        <li class="footer__menu--item">
           <a href="#">Contact</a>
         </li>
       </ul>
-    </nav>
-  </header>
 
-  <main>
-    <section class="section__first">
-      <div class="content__section">
-        <p class="content__section--text">Unhappy with your website?</p>
-        <h2 class="section__title">We create beautiful <br>
-          and fast web services</h2>
+      <div class="footer__social">
+        <a href="#" class="footer__social--title">Edie</a>
+        <a href="#" class="footer__social--icon"><img src="./assets/img/svg/instagram.svg" alt="instagram"></a>
+        <a href="#" class="footer__social--icon"><img src="./assets/img/svg/linkedin.svg" alt="linkedin"></a>
+        <a href="#" class="footer__social--icon"><img src="./assets/img/svg/twitter.svg" alt="twitter"></a>
       </div>
 
-      <div class="content__section--wrapper">
-      </div>
-
-      <div class="content__section">
-        <h2 class="section__title">Story, emotion <br>
-          and purpose</h2>
-        <p class="content__section--text content__section--text-alternative">We help transform your ideas into real
-          world applications that will outperform your toughest competition and
-          help you achieve your strategic goals in short period of time.</p>
-
+      <div class="footer__contact">
         <div class="content__input">
           <label for="email">Want us to contact you?</label>
           <input type="email" name="email" placeholder="Email">
           <button>Join</button>
         </div>
       </div>
-    </section>
+    </div>
 
-    <section class="section__second">
-      <h2 class="section__title section__second--title">We offer high <br> demand services</h2>
-
-      <article class="card">
-        <div class="card__wrapper card__wrapper--pencil">
-          <img src="./assets/img/svg/pencil.svg" class="card__image">
-        </div>
-
-        <h3 class="card__title">UI/UX Design</h3>
-
-        <p class="card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat
-          aliquet id quis turpis.</p>
-        <button class="card__button">Get started</button>
-      </article>
-
-      <article class="card">
-        <div class="card__wrapper card__wrapper--code">
-          <img src="./assets/img/svg/code.svg" class="card__image">
-        </div>
-
-        <h3 class="card__title">Front End</h3>
-
-        <p class="card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat
-          aliquet id quis turpis.</p>
-        <button class="card__button">Get started</button>
-      </article>
-
-      <article class="card">
-        <div class="card__wrapper card__wrapper--storage">
-          <img src="./assets/img/svg/storage.svg" class="card__image">
-        </div>
-
-        <h3 class="card__title">Back End</h3>
-
-        <p class="card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat
-          aliquet id quis turpis.</p>
-        <button class="card__button">Get started</button>
-      </article>
-    </section>
-
-    <section class="section__third">
-      <h2 class="section__title content__grid--title">Good design means <br> good business</h2>
-
-      <article class="card__alternative content__grid--full-stack">
-        <img src="./assets/img/jpg/smarthome.jpg" class="card__alternative--image">
-        <span class="card__alternative--span">Full stack application</span>
-        <h3 class="card__altenative__title">Smart home dashboard</h3>
-      </article>
-
-      <article class="card__alternative content__grid--onboard-application">
-        <img src="./assets/img/png/onboard.png" class="card__alternative--image">
-        <span class="card__alternative--span">UX|UI design</span>
-        <h3 class="card__altenative__title">Onboard application</h3>
-      </article>
-
-      <article class="card__alternative content__grid--homepage">
-        <img src="./assets/img/png/juice-product.png" class="card__alternative--image">
-        <span class="card__alternative--span">Front End applicati on</span>
-        <h3 class="card__altenative__title">Juice product homepage</h3>
-      </article>
-
-      <article class="card__alternative content__grid--system">
-        <img src="./assets/img/png/booking.png" class="card__alternative--image">
-        <span class="card__alternative--span">Mobile application</span>
-        <h3 class="card__altenative__title">Booking system</h3>
-      </article>
-
-      <a href="#" class="button__see--more content__grid--button">see more<img src="./assets/img/svg/arrow.svg"></a>
-    </section>
-
-    <section class="section__fourth">
-
-      <div class="section__header">
-        <span class="section__subtitle">Meet the team</span>
-        <h2 class="section__title">We are chilled <br>and a laidback <br> team</h2>
-        <span class="section__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
-      </div>
-
-      <div class="grid__photos--member">
-        <img src="./assets/img/png/person3.png" class="photo__member--image grid__member-1">
-        <img src="./assets/img/png/person1.png" class="photo__member--image grid__member-2">
-        <img src="./assets/img/png/person2.png" class="photo__member--image grid__member-3">
-      </div>
-    </section>
-
-    <article class="testimonial">
-      <p class="testimonial__text">“Fast and outstanding resutls. Edie understands their customer’s needs. They have a
-        young and talented team.” </p>
-
-      <div class="testimonial__user">
-        <img src="./assets/img/png/person4.png" class="testimonial__user--image">
-        <div class="testimonial__user--info">
-          <p>Carlos Tran</p>
-          <span>The Decorate Gatsby</span>
-        </div>
-      </div>
-    </article>
-  </main>
-
+    <p class="created">created by <strong>Lucas Melo</strong> - devChallenges.io</p>
+  </footer>
   <script src="./assets/js/script.js"></script>
 </body>
 

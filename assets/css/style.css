@@ -1,6 +1,9 @@
 body {
   font-family: "Poppins", "Material Icons", sans-serif;
   overflow-x: hidden;
+}
+
+.container {
   padding: 0.5em 0.8em;
 }
 
@@ -71,7 +74,7 @@ body {
 }
 
 @media screen and (min-width: 1020px) {
-  body {
+  .container {
     padding: 0.5em 2.2em;
   }
 
@@ -171,6 +174,7 @@ main {
   background: #f2f2f2;
   border: none;
   border-radius: 12px;
+  box-sizing: border-box;
   font-size: 14px;
   line-height: 21px;
   padding: 1em 0.5em;
@@ -558,5 +562,81 @@ main {
   .testimonial__user {
     margin-top: 50px;
     width: 300px;
+  }
+}
+
+footer {
+  background: #100e1d;
+  margin-top: 100px;
+  padding: 2.875em 3em 1em;
+}
+
+.footer__content {
+  display: flex;
+  flex-flow: column;
+}
+
+.footer__menu--item a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 36px;
+  opacity: 0.5;
+
+  transition: all 300ms;
+}
+
+.footer__menu--item a:hover {
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  opacity: 1;
+}
+
+.footer__social {
+  width: 100px;
+  margin-top: 3em;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.footer__social--title {
+  color: #fff;
+  font-family: "Heebo";
+  font-size: 1.5em;
+  grid-column: span 3;
+  line-height: 2em;
+  text-decoration: none;
+}
+
+.footer__contact {
+  margin-top: 3em;
+  width: 270px;
+}
+
+.created {
+  color: #f2f2f2;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  margin-top: 5em;
+  text-align: center;
+}
+
+.created strong {
+  font-weight: 700;
+}
+
+@media screen and (min-width: 1020px) {
+  .footer__content {
+    flex-flow: row;
+    justify-content: space-between;
+    padding: 2.875em 6em 1em;
+  }
+  footer .content__input input {
+    width: 100%;
+  }
+
+  footer .content__input button {
+    right: 0.6em;
   }
 }
